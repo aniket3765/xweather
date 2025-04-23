@@ -6,7 +6,7 @@ const WeatherApp = () => {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
 
-  const API_KEY = 'YOUR_API_KEY'; // Replace with your actual API key
+    const API_KEY = '185883afca7c4c308c0161256252304';
 
   const fetchWeatherData = async () => {
     if (!city) return;
